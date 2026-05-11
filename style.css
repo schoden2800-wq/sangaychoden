@@ -760,6 +760,7 @@ span {
 /* SECTION TITLE */
 .skills-title{
     font-size: 3rem;
+    margin-top: 5rem;
     margin-bottom: 2rem;
     color: #ffb6f9;
     text-align: center;
