@@ -24,3 +24,48 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 }
+particlesJS("particles-js", {
+    particles: {
+        number: {
+            value: 120
+        },
+        color: {
+            value: "#d4a0dd"
+        },
+        shape: {
+            type: "circle"
+        },
+        opacity: {
+            value: 0.5
+        },
+        size: {
+            value: 3
+        },
+        line_linked: {
+            enable: true,
+            distance: 150,
+            color: "#d4a0dd",
+            opacity: 0.4,
+            width: 1
+        },
+        move: {
+            enable: true,
+            speed: 2
+        }
+    },
+
+    interactivity: {
+        events: {
+            onhover: {
+                enable: true,
+                mode: "grab"
+            },
+            onclick: {
+                enable: true,
+                mode: "push"
+            }
+        }
+    },
+
+    retina_detect: true
+});
