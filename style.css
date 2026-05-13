@@ -716,6 +716,15 @@ span {
     height: 45px;
     object-fit: contain;
 }
+.section-subtitle{
+    text-align: center;
+    font-size: 2rem;
+    color: #b8b8b8;
+    margin-top: -1rem;
+    margin-bottom: 5rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
 /* @media(max-width:895px){
   #menu-icon{
     display: block;
